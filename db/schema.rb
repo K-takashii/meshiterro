@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2021_09_08_124504) do
     t.integer "user_id"
     t.integer "post_image_id"
     t.datetime "created_at", null: false
-    t.datetimes "updated_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "post_comments", force: :cascade do |t|

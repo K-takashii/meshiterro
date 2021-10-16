@@ -1,5 +1,5 @@
 class CreatePostImages < ActiveRecord::Migration[5.2]
-  def changes
+  def change
     create_table :post_images do |t|
       t.text :shop_name
       t.string :image_id
